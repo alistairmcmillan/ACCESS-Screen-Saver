@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3BE838419970055005BE05F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BE838319970055005BE05F /* Cocoa.framework */; };
+		F3BE838619970055005BE05F /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BE838519970055005BE05F /* ScreenSaver.framework */; };
+		F3BE839019970055005BE05F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3BE838E19970055005BE05F /* InfoPlist.strings */; };
+		F3BE839419970055005BE05F /* ACCESS_Screen_SaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE839319970055005BE05F /* ACCESS_Screen_SaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3BE838019970055005BE05F /* ACCESS Screen Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACCESS Screen Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BE838319970055005BE05F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F3BE838519970055005BE05F /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		F3BE838819970055005BE05F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F3BE838919970055005BE05F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F3BE838A19970055005BE05F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3BE838D19970055005BE05F /* ACCESS Screen Saver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACCESS Screen Saver-Info.plist"; sourceTree = "<group>"; };
+		F3BE838F19970055005BE05F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3BE839119970055005BE05F /* ACCESS Screen Saver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACCESS Screen Saver-Prefix.pch"; sourceTree = "<group>"; };
+		F3BE839219970055005BE05F /* ACCESS_Screen_SaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACCESS_Screen_SaverView.h; sourceTree = "<group>"; };
+		F3BE839319970055005BE05F /* ACCESS_Screen_SaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACCESS_Screen_SaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3BE837B19970055005BE05F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE838619970055005BE05F /* ScreenSaver.framework in Frameworks */,
+				F3BE838419970055005BE05F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3BE837519970055005BE05F = {
+			isa = PBXGroup;
+			children = (
+				F3BE838B19970055005BE05F /* ACCESS Screen Saver */,
+				F3BE838219970055005BE05F /* Frameworks */,
+				F3BE838119970055005BE05F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3BE838119970055005BE05F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE838019970055005BE05F /* ACCESS Screen Saver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BE838219970055005BE05F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE838319970055005BE05F /* Cocoa.framework */,
+				F3BE838519970055005BE05F /* ScreenSaver.framework */,
+				F3BE838719970055005BE05F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3BE838719970055005BE05F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE838819970055005BE05F /* AppKit.framework */,
+				F3BE838919970055005BE05F /* CoreData.framework */,
+				F3BE838A19970055005BE05F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F3BE838B19970055005BE05F /* ACCESS Screen Saver */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE839219970055005BE05F /* ACCESS_Screen_SaverView.h */,
+				F3BE839319970055005BE05F /* ACCESS_Screen_SaverView.m */,
+				F3BE838C19970055005BE05F /* Supporting Files */,
+			);
+			path = "ACCESS Screen Saver";
+			sourceTree = "<group>";
+		};
+		F3BE838C19970055005BE05F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE838D19970055005BE05F /* ACCESS Screen Saver-Info.plist */,
+				F3BE838E19970055005BE05F /* InfoPlist.strings */,
+				F3BE839119970055005BE05F /* ACCESS Screen Saver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F3BE837C19970055005BE05F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F3BE837F19970055005BE05F /* ACCESS Screen Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BE839719970055005BE05F /* Build configuration list for PBXNativeTarget "ACCESS Screen Saver" */;
+			buildPhases = (
+				F3BE837A19970055005BE05F /* Sources */,
+				F3BE837B19970055005BE05F /* Frameworks */,
+				F3BE837C19970055005BE05F /* Headers */,
+				F3BE837D19970055005BE05F /* Resources */,
+				F3BE837E19970055005BE05F /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACCESS Screen Saver";
+			productName = "ACCESS Screen Saver";
+			productReference = F3BE838019970055005BE05F /* ACCESS Screen Saver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3BE837619970055005BE05F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alistair McMillan";
+			};
+			buildConfigurationList = F3BE837919970055005BE05F /* Build configuration list for PBXProject "ACCESS Screen Saver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3BE837519970055005BE05F;
+			productRefGroup = F3BE838119970055005BE05F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BE837F19970055005BE05F /* ACCESS Screen Saver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3BE837D19970055005BE05F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE839019970055005BE05F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F3BE837E19970055005BE05F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3BE837A19970055005BE05F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE839419970055005BE05F /* ACCESS_Screen_SaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3BE838E19970055005BE05F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BE838F19970055005BE05F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3BE839519970055005BE05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F3BE839619970055005BE05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F3BE839819970055005BE05F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCESS Screen Saver/ACCESS Screen Saver-Prefix.pch";
+				INFOPLIST_FILE = "ACCESS Screen Saver/ACCESS Screen Saver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F3BE839919970055005BE05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACCESS Screen Saver/ACCESS Screen Saver-Prefix.pch";
+				INFOPLIST_FILE = "ACCESS Screen Saver/ACCESS Screen Saver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3BE837919970055005BE05F /* Build configuration list for PBXProject "ACCESS Screen Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE839519970055005BE05F /* Debug */,
+				F3BE839619970055005BE05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BE839719970055005BE05F /* Build configuration list for PBXNativeTarget "ACCESS Screen Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE839819970055005BE05F /* Debug */,
+				F3BE839919970055005BE05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3BE837619970055005BE05F /* Project object */;
+}
