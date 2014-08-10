@@ -8,6 +8,15 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 
-@interface ACCESS_Screen_SaverView : ScreenSaverView
+@interface ACCESS_Screen_SaverView : ScreenSaverView {
+    float communicationOpacity;
+    float excelOpacity;
+    float innovationOpacity;
+    float trustOpacity;
+    BOOL increasingCommunicationOpacity;
+    BOOL increasingExcelOpacity;
+    BOOL increasingInnovationOpacity;
+    BOOL increasingTrustOpacity;
+}
 
 @end
