@@ -62,6 +62,25 @@
     }
 }
 
+- (void)drawOverlay:(NSString *)imageName withRatio:(float *)ratio withOpacity:(float *)opacity
+{
+    NSImage* foregroundImage;
+    float dstWidth;
+    float dstHeight;
+    NSRect destRect;
+    
+    NSRect viewBounds = [self bounds];
+
+    foregroundImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:imageName ofType:@"png"]];
+    dstWidth = foregroundImage.size.width * *ratio * 0.6;
+    dstHeight = foregroundImage.size.height * *ratio * 0.6;
+    destRect = NSMakeRect((viewBounds.size.width/2)-(dstWidth/2), (viewBounds.size.height/2)-(dstHeight/2), dstWidth, dstHeight );
+    [foregroundImage drawInRect:destRect
+                       fromRect:NSMakeRect( 0, 0, [foregroundImage size].width, [foregroundImage size].height )
+                      operation:NSCompositeSourceOver
+                       fraction:*opacity];
+}
+
 - (void)animateOneFrame
 {
     NSRect viewBounds = [self bounds];
@@ -76,49 +95,13 @@
     [self updateOpacity:&increasingInnovationOpacity opacity:&innovationOpacity];
     [self updateOpacity:&increasingTrustOpacity opacity:&trustOpacity];
 
-    NSImage* foregroundImage;
     float ratio;
-    float dstWidth;
-    float dstHeight;
-    NSRect destRect;
-    
     ratio = viewBounds.size.width / backgroundImage.size.width;
 
-    foregroundImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:@"excel - clear" ofType:@"png"]];
-    dstWidth = foregroundImage.size.width * ratio * 0.6;
-    dstHeight = foregroundImage.size.height * ratio * 0.6;
-    destRect = NSMakeRect((viewBounds.size.width/2)-(dstWidth/2), (viewBounds.size.height/2)-(dstHeight/2), dstWidth, dstHeight );
-    [foregroundImage drawInRect:destRect
-                       fromRect:NSMakeRect( 0, 0, [foregroundImage size].width, [foregroundImage size].height )
-                      operation:NSCompositeSourceOver
-                       fraction:excelOpacity];
-    
-    foregroundImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:@"communication - clear" ofType:@"png"]];
-    dstWidth = foregroundImage.size.width * ratio * 0.6;
-    dstHeight = foregroundImage.size.height * ratio * 0.6;
-    destRect = NSMakeRect((viewBounds.size.width/2)-(dstWidth/2), (viewBounds.size.height/2)-(dstHeight/2), dstWidth, dstHeight );
-    [foregroundImage drawInRect:destRect
-                       fromRect:NSMakeRect( 0, 0, [foregroundImage size].width, [foregroundImage size].height )
-                      operation:NSCompositeSourceOver
-                       fraction:communicationOpacity];
-    
-    foregroundImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:@"innovation - clear" ofType:@"png"]];
-    dstWidth = foregroundImage.size.width * ratio * 0.6;
-    dstHeight = foregroundImage.size.height * ratio * 0.6;
-    destRect = NSMakeRect((viewBounds.size.width/2)-(dstWidth/2), (viewBounds.size.height/2)-(dstHeight/2), dstWidth, dstHeight );
-    [foregroundImage drawInRect:destRect
-                       fromRect:NSMakeRect( 0, 0, [foregroundImage size].width, [foregroundImage size].height )
-                      operation:NSCompositeSourceOver
-                       fraction:innovationOpacity];
-
-    foregroundImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:@"trust - clear" ofType:@"png"]];
-    dstWidth = foregroundImage.size.width * ratio * 0.6;
-    dstHeight = foregroundImage.size.height * ratio * 0.6;
-    destRect = NSMakeRect((viewBounds.size.width/2)-(dstWidth/2), (viewBounds.size.height/2)-(dstHeight/2), dstWidth, dstHeight );
-    [foregroundImage drawInRect:destRect
-                       fromRect:NSMakeRect( 0, 0, [foregroundImage size].width, [foregroundImage size].height )
-                      operation:NSCompositeSourceOver
-                       fraction:trustOpacity];
+    [self drawOverlay:@"excel - clear" withRatio:&ratio withOpacity:&excelOpacity];
+    [self drawOverlay:@"communication - clear" withRatio:&ratio withOpacity:&communicationOpacity];
+    [self drawOverlay:@"innovation - clear" withRatio:&ratio withOpacity:&innovationOpacity];
+    [self drawOverlay:@"trust - clear" withRatio:&ratio withOpacity:&trustOpacity];
 }
 
 - (BOOL)hasConfigureSheet
