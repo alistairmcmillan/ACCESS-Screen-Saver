@@ -16,6 +16,7 @@
 		F3BE83A1199703EC005BE05F /* excel - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839C199703EC005BE05F /* excel - clear.png */; };
 		F3BE83A2199703EC005BE05F /* innovation - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839D199703EC005BE05F /* innovation - clear.png */; };
 		F3BE83A3199703EC005BE05F /* trust - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839E199703EC005BE05F /* trust - clear.png */; };
+		F3C8E02119A7F268000229E3 /* ACCESS deliver - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C8E02019A7F268000229E3 /* ACCESS deliver - clear.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F3BE839C199703EC005BE05F /* excel - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "excel - clear.png"; sourceTree = "<group>"; };
 		F3BE839D199703EC005BE05F /* innovation - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "innovation - clear.png"; sourceTree = "<group>"; };
 		F3BE839E199703EC005BE05F /* trust - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trust - clear.png"; sourceTree = "<group>"; };
+		F3C8E02019A7F268000229E3 /* ACCESS deliver - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACCESS deliver - clear.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F3BE839A199703EC005BE05F /* ACCESS.png */,
+				F3C8E02019A7F268000229E3 /* ACCESS deliver - clear.png */,
 				F3BE839B199703EC005BE05F /* communication - clear.png */,
 				F3BE839C199703EC005BE05F /* excel - clear.png */,
 				F3BE839D199703EC005BE05F /* innovation - clear.png */,
@@ -179,6 +182,7 @@
 				F3BE83A2199703EC005BE05F /* innovation - clear.png in Resources */,
 				F3BE83A3199703EC005BE05F /* trust - clear.png in Resources */,
 				F3BE83A1199703EC005BE05F /* excel - clear.png in Resources */,
+				F3C8E02119A7F268000229E3 /* ACCESS deliver - clear.png in Resources */,
 				F3BE839F199703EC005BE05F /* ACCESS.png in Resources */,
 				F3BE83A0199703EC005BE05F /* communication - clear.png in Resources */,
 			);
@@ -334,6 +338,7 @@
 				F3BE839919970055005BE05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

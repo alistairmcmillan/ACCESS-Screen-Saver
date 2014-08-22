@@ -62,19 +62,31 @@
     }
 }
 
+- (void)drawLogo:(NSString *)imageName
+{
+    NSRect viewBounds = [self bounds];
+    NSImage* foregroundImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:imageName ofType:@"png"]];    
+    float dstWidth = viewBounds.size.width/4;
+    float dstHeight = dstWidth * (foregroundImage.size.height/foregroundImage.size.width);
+    NSRect destRect = NSMakeRect(
+                          viewBounds.size.width-dstWidth-(viewBounds.size.height/20),
+                          viewBounds.size.height-dstHeight-(viewBounds.size.height/20),
+                          dstWidth,
+                          dstHeight
+                          );
+    [foregroundImage drawInRect:destRect
+                       fromRect:NSMakeRect( 0, 0, [foregroundImage size].width, [foregroundImage size].height )
+                      operation:NSCompositeSourceOver
+                       fraction:1.0];
+}
+
 - (void)drawOverlay:(NSString *)imageName withRatio:(float *)ratio withOpacity:(float *)opacity
 {
-    NSImage* foregroundImage;
-    float dstWidth;
-    float dstHeight;
-    NSRect destRect;
-    
     NSRect viewBounds = [self bounds];
-
-    foregroundImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:imageName ofType:@"png"]];
-    dstWidth = foregroundImage.size.width * *ratio * 0.6;
-    dstHeight = foregroundImage.size.height * *ratio * 0.6;
-    destRect = NSMakeRect((viewBounds.size.width/2)-(dstWidth/2), (viewBounds.size.height/2)-(dstHeight/2), dstWidth, dstHeight );
+    NSImage* foregroundImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:imageName ofType:@"png"]];
+    float dstWidth = foregroundImage.size.width * *ratio * 0.6;
+    float dstHeight = foregroundImage.size.height * *ratio * 0.6;
+    NSRect destRect = NSMakeRect((viewBounds.size.width/2)-(dstWidth/2), (viewBounds.size.height/2)-(dstHeight/2), dstWidth, dstHeight );
     [foregroundImage drawInRect:destRect
                        fromRect:NSMakeRect( 0, 0, [foregroundImage size].width, [foregroundImage size].height )
                       operation:NSCompositeSourceOver
@@ -97,6 +109,8 @@
 
     float ratio;
     ratio = viewBounds.size.width / backgroundImage.size.width;
+    
+    [self drawLogo:@"ACCESS deliver - clear"];
 
     [self drawOverlay:@"excel - clear" withRatio:&ratio withOpacity:&excelOpacity];
     [self drawOverlay:@"communication - clear" withRatio:&ratio withOpacity:&communicationOpacity];
