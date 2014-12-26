@@ -11,12 +11,12 @@
 		F3BE838619970055005BE05F /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BE838519970055005BE05F /* ScreenSaver.framework */; };
 		F3BE839019970055005BE05F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3BE838E19970055005BE05F /* InfoPlist.strings */; };
 		F3BE839419970055005BE05F /* ACCESS_Screen_SaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE839319970055005BE05F /* ACCESS_Screen_SaverView.m */; };
-		F3BE839F199703EC005BE05F /* ACCESS.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839A199703EC005BE05F /* ACCESS.png */; };
-		F3BE83A0199703EC005BE05F /* communication - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839B199703EC005BE05F /* communication - clear.png */; };
-		F3BE83A1199703EC005BE05F /* excel - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839C199703EC005BE05F /* excel - clear.png */; };
-		F3BE83A2199703EC005BE05F /* innovation - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839D199703EC005BE05F /* innovation - clear.png */; };
-		F3BE83A3199703EC005BE05F /* trust - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839E199703EC005BE05F /* trust - clear.png */; };
-		F3C8E02119A7F268000229E3 /* ACCESS deliver - clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C8E02019A7F268000229E3 /* ACCESS deliver - clear.png */; };
+		F3BE839F199703EC005BE05F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839A199703EC005BE05F /* background.png */; };
+		F3BE83A0199703EC005BE05F /* communication.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839B199703EC005BE05F /* communication.png */; };
+		F3BE83A1199703EC005BE05F /* excel.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839C199703EC005BE05F /* excel.png */; };
+		F3BE83A2199703EC005BE05F /* innovation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839D199703EC005BE05F /* innovation.png */; };
+		F3BE83A3199703EC005BE05F /* trust.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839E199703EC005BE05F /* trust.png */; };
+		F3C8E02119A7F268000229E3 /* ACCESS.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C8E02019A7F268000229E3 /* ACCESS.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +31,12 @@
 		F3BE839119970055005BE05F /* ACCESS Screen Saver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACCESS Screen Saver-Prefix.pch"; sourceTree = "<group>"; };
 		F3BE839219970055005BE05F /* ACCESS_Screen_SaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACCESS_Screen_SaverView.h; sourceTree = "<group>"; };
 		F3BE839319970055005BE05F /* ACCESS_Screen_SaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACCESS_Screen_SaverView.m; sourceTree = "<group>"; };
-		F3BE839A199703EC005BE05F /* ACCESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ACCESS.png; sourceTree = "<group>"; };
-		F3BE839B199703EC005BE05F /* communication - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "communication - clear.png"; sourceTree = "<group>"; };
-		F3BE839C199703EC005BE05F /* excel - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "excel - clear.png"; sourceTree = "<group>"; };
-		F3BE839D199703EC005BE05F /* innovation - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "innovation - clear.png"; sourceTree = "<group>"; };
-		F3BE839E199703EC005BE05F /* trust - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trust - clear.png"; sourceTree = "<group>"; };
-		F3C8E02019A7F268000229E3 /* ACCESS deliver - clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACCESS deliver - clear.png"; sourceTree = "<group>"; };
+		F3BE839A199703EC005BE05F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F3BE839B199703EC005BE05F /* communication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = communication.png; sourceTree = "<group>"; };
+		F3BE839C199703EC005BE05F /* excel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = excel.png; sourceTree = "<group>"; };
+		F3BE839D199703EC005BE05F /* innovation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innovation.png; sourceTree = "<group>"; };
+		F3BE839E199703EC005BE05F /* trust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trust.png; sourceTree = "<group>"; };
+		F3C8E02019A7F268000229E3 /* ACCESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ACCESS.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +102,12 @@
 		F3BE838C19970055005BE05F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F3BE839A199703EC005BE05F /* ACCESS.png */,
-				F3C8E02019A7F268000229E3 /* ACCESS deliver - clear.png */,
-				F3BE839B199703EC005BE05F /* communication - clear.png */,
-				F3BE839C199703EC005BE05F /* excel - clear.png */,
-				F3BE839D199703EC005BE05F /* innovation - clear.png */,
-				F3BE839E199703EC005BE05F /* trust - clear.png */,
+				F3BE839A199703EC005BE05F /* background.png */,
+				F3C8E02019A7F268000229E3 /* ACCESS.png */,
+				F3BE839B199703EC005BE05F /* communication.png */,
+				F3BE839C199703EC005BE05F /* excel.png */,
+				F3BE839D199703EC005BE05F /* innovation.png */,
+				F3BE839E199703EC005BE05F /* trust.png */,
 				F3BE838D19970055005BE05F /* ACCESS Screen Saver-Info.plist */,
 				F3BE838E19970055005BE05F /* InfoPlist.strings */,
 				F3BE839119970055005BE05F /* ACCESS Screen Saver-Prefix.pch */,
@@ -179,12 +179,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3BE839019970055005BE05F /* InfoPlist.strings in Resources */,
-				F3BE83A2199703EC005BE05F /* innovation - clear.png in Resources */,
-				F3BE83A3199703EC005BE05F /* trust - clear.png in Resources */,
-				F3BE83A1199703EC005BE05F /* excel - clear.png in Resources */,
-				F3C8E02119A7F268000229E3 /* ACCESS deliver - clear.png in Resources */,
-				F3BE839F199703EC005BE05F /* ACCESS.png in Resources */,
-				F3BE83A0199703EC005BE05F /* communication - clear.png in Resources */,
+				F3BE83A2199703EC005BE05F /* innovation.png in Resources */,
+				F3BE83A3199703EC005BE05F /* trust.png in Resources */,
+				F3BE83A1199703EC005BE05F /* excel.png in Resources */,
+				F3C8E02119A7F268000229E3 /* ACCESS.png in Resources */,
+				F3BE839F199703EC005BE05F /* background.png in Resources */,
+				F3BE83A0199703EC005BE05F /* communication.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

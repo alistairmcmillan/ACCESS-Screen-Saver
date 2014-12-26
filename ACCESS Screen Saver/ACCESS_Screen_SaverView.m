@@ -96,7 +96,7 @@
 - (void)animateOneFrame
 {
     NSRect viewBounds = [self bounds];
-    NSString* backgroundImageName = [[NSBundle bundleForClass:[self class]] pathForResource:@"ACCESS" ofType:@"png"];
+    NSString* backgroundImageName = [[NSBundle bundleForClass:[self class]] pathForResource:@"background" ofType:@"png"];
     NSImage* backgroundImage = [[NSImage alloc] initWithContentsOfFile:backgroundImageName];
     NSSize backgroundImageSize = [backgroundImage size];
     NSRect backgroundImageRect = NSMakeRect( 0, 0, backgroundImageSize.width, backgroundImageSize.height );
@@ -110,12 +110,12 @@
     float ratio;
     ratio = viewBounds.size.width / backgroundImage.size.width;
     
-    [self drawLogo:@"ACCESS deliver - clear"];
+    [self drawLogo:@"ACCESS"];
 
-    [self drawOverlay:@"excel - clear" withRatio:&ratio withOpacity:&excelOpacity];
-    [self drawOverlay:@"communication - clear" withRatio:&ratio withOpacity:&communicationOpacity];
-    [self drawOverlay:@"innovation - clear" withRatio:&ratio withOpacity:&innovationOpacity];
-    [self drawOverlay:@"trust - clear" withRatio:&ratio withOpacity:&trustOpacity];
+    [self drawOverlay:@"excel" withRatio:&ratio withOpacity:&excelOpacity];
+    [self drawOverlay:@"communication" withRatio:&ratio withOpacity:&communicationOpacity];
+    [self drawOverlay:@"innovation" withRatio:&ratio withOpacity:&innovationOpacity];
+    [self drawOverlay:@"trust" withRatio:&ratio withOpacity:&trustOpacity];
 }
 
 - (BOOL)hasConfigureSheet
