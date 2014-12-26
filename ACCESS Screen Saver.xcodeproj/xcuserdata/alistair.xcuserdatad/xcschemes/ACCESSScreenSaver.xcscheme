@@ -39,6 +39,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F3BE837F19970055005BE05F"
+            BuildableName = "ACCESS Screen Saver.saver"
+            BlueprintName = "ACCESS Screen Saver"
+            ReferencedContainer = "container:ACCESS Screen Saver.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
