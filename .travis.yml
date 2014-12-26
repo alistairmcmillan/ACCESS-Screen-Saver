@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: ACCESS Screen Saver.xcodeproj
+xcode_scheme: ACCESS Screen Saver
