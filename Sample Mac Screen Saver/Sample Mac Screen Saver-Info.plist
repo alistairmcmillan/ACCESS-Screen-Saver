@@ -25,6 +25,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2014 Alistair McMillan. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string>ACCESS_Screen_SaverView</string>
+	<string>Sample_Mac_Screen_SaverView</string>
 </dict>
 </plist>

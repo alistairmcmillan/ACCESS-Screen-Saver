@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F3BE837F19970055005BE05F"
-               BuildableName = "ACCESS Screen Saver.saver"
-               BlueprintName = "ACCESS Screen Saver"
-               ReferencedContainer = "container:ACCESS Screen Saver.xcodeproj">
+               BuildableName = "Sample Mac Screen Saver.saver"
+               BlueprintName = "Sample Mac Screen Saver"
+               ReferencedContainer = "container:Sample Mac Screen Saver.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F3BE837F19970055005BE05F"
-            BuildableName = "ACCESS Screen Saver.saver"
-            BlueprintName = "ACCESS Screen Saver"
-            ReferencedContainer = "container:ACCESS Screen Saver.xcodeproj">
+            BuildableName = "Sample Mac Screen Saver.saver"
+            BlueprintName = "Sample Mac Screen Saver"
+            ReferencedContainer = "container:Sample Mac Screen Saver.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

@@ -1,14 +1,14 @@
 //
-//  ACCESS_Screen_SaverView.m
-//  ACCESS Screen Saver
+//  Sample_Mac_Screen_SaverView.m
+//  Sample Mac Screen Saver
 //
 //  Created by Alistair McMillan on 10/08/2014.
 //  Copyright (c) 2014 Alistair McMillan. All rights reserved.
 //
 
-#import "ACCESS_Screen_SaverView.h"
+#import "Sample_Mac_Screen_SaverView.h"
 
-@implementation ACCESS_Screen_SaverView
+@implementation Sample_Mac_Screen_SaverView
 
 - (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
 {
@@ -110,7 +110,7 @@
     float ratio;
     ratio = viewBounds.size.width / backgroundImage.size.width;
     
-    [self drawLogo:@"ACCESS"];
+    [self drawLogo:@"logo"];
 
     [self drawOverlay:@"excel" withRatio:&ratio withOpacity:&excelOpacity];
     [self drawOverlay:@"communication" withRatio:&ratio withOpacity:&communicationOpacity];

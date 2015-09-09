@@ -10,33 +10,33 @@
 		F3BE838419970055005BE05F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BE838319970055005BE05F /* Cocoa.framework */; };
 		F3BE838619970055005BE05F /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BE838519970055005BE05F /* ScreenSaver.framework */; };
 		F3BE839019970055005BE05F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3BE838E19970055005BE05F /* InfoPlist.strings */; };
-		F3BE839419970055005BE05F /* ACCESS_Screen_SaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE839319970055005BE05F /* ACCESS_Screen_SaverView.m */; };
+		F3BE839419970055005BE05F /* Sample_Mac_Screen_SaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE839319970055005BE05F /* Sample_Mac_Screen_SaverView.m */; };
 		F3BE839F199703EC005BE05F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839A199703EC005BE05F /* background.png */; };
 		F3BE83A0199703EC005BE05F /* communication.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839B199703EC005BE05F /* communication.png */; };
 		F3BE83A1199703EC005BE05F /* excel.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839C199703EC005BE05F /* excel.png */; };
 		F3BE83A2199703EC005BE05F /* innovation.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839D199703EC005BE05F /* innovation.png */; };
 		F3BE83A3199703EC005BE05F /* trust.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BE839E199703EC005BE05F /* trust.png */; };
-		F3C8E02119A7F268000229E3 /* ACCESS.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C8E02019A7F268000229E3 /* ACCESS.png */; };
+		F3C8E02119A7F268000229E3 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3C8E02019A7F268000229E3 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3BE838019970055005BE05F /* ACCESS Screen Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ACCESS Screen Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BE838019970055005BE05F /* Sample Mac Screen Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sample Mac Screen Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BE838319970055005BE05F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F3BE838519970055005BE05F /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
 		F3BE838819970055005BE05F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F3BE838919970055005BE05F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F3BE838A19970055005BE05F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F3BE838D19970055005BE05F /* ACCESS Screen Saver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACCESS Screen Saver-Info.plist"; sourceTree = "<group>"; };
+		F3BE838D19970055005BE05F /* Sample Mac Screen Saver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sample Mac Screen Saver-Info.plist"; sourceTree = "<group>"; };
 		F3BE838F19970055005BE05F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F3BE839119970055005BE05F /* ACCESS Screen Saver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACCESS Screen Saver-Prefix.pch"; sourceTree = "<group>"; };
-		F3BE839219970055005BE05F /* ACCESS_Screen_SaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACCESS_Screen_SaverView.h; sourceTree = "<group>"; };
-		F3BE839319970055005BE05F /* ACCESS_Screen_SaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACCESS_Screen_SaverView.m; sourceTree = "<group>"; };
+		F3BE839119970055005BE05F /* Sample Mac Screen Saver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sample Mac Screen Saver-Prefix.pch"; sourceTree = "<group>"; };
+		F3BE839219970055005BE05F /* Sample_Mac_Screen_SaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sample_Mac_Screen_SaverView.h; sourceTree = "<group>"; };
+		F3BE839319970055005BE05F /* Sample_Mac_Screen_SaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sample_Mac_Screen_SaverView.m; sourceTree = "<group>"; };
 		F3BE839A199703EC005BE05F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		F3BE839B199703EC005BE05F /* communication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = communication.png; sourceTree = "<group>"; };
 		F3BE839C199703EC005BE05F /* excel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = excel.png; sourceTree = "<group>"; };
 		F3BE839D199703EC005BE05F /* innovation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = innovation.png; sourceTree = "<group>"; };
 		F3BE839E199703EC005BE05F /* trust.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trust.png; sourceTree = "<group>"; };
-		F3C8E02019A7F268000229E3 /* ACCESS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ACCESS.png; sourceTree = "<group>"; };
+		F3C8E02019A7F268000229E3 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 		F3BE837519970055005BE05F = {
 			isa = PBXGroup;
 			children = (
-				F3BE838B19970055005BE05F /* ACCESS Screen Saver */,
+				F3BE838B19970055005BE05F /* Sample Mac Screen Saver */,
 				F3BE838219970055005BE05F /* Frameworks */,
 				F3BE838119970055005BE05F /* Products */,
 			);
@@ -64,7 +64,7 @@
 		F3BE838119970055005BE05F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3BE838019970055005BE05F /* ACCESS Screen Saver.saver */,
+				F3BE838019970055005BE05F /* Sample Mac Screen Saver.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,28 +89,29 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		F3BE838B19970055005BE05F /* ACCESS Screen Saver */ = {
+		F3BE838B19970055005BE05F /* Sample Mac Screen Saver */ = {
 			isa = PBXGroup;
 			children = (
-				F3BE839219970055005BE05F /* ACCESS_Screen_SaverView.h */,
-				F3BE839319970055005BE05F /* ACCESS_Screen_SaverView.m */,
+				F3BE839219970055005BE05F /* Sample_Mac_Screen_SaverView.h */,
+				F3BE839319970055005BE05F /* Sample_Mac_Screen_SaverView.m */,
 				F3BE838C19970055005BE05F /* Supporting Files */,
 			);
-			path = "ACCESS Screen Saver";
+			name = "Sample Mac Screen Saver";
+			path = "Sample Mac Screen Saver";
 			sourceTree = "<group>";
 		};
 		F3BE838C19970055005BE05F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				F3BE839A199703EC005BE05F /* background.png */,
-				F3C8E02019A7F268000229E3 /* ACCESS.png */,
+				F3C8E02019A7F268000229E3 /* logo.png */,
 				F3BE839B199703EC005BE05F /* communication.png */,
 				F3BE839C199703EC005BE05F /* excel.png */,
 				F3BE839D199703EC005BE05F /* innovation.png */,
 				F3BE839E199703EC005BE05F /* trust.png */,
-				F3BE838D19970055005BE05F /* ACCESS Screen Saver-Info.plist */,
+				F3BE838D19970055005BE05F /* Sample Mac Screen Saver-Info.plist */,
 				F3BE838E19970055005BE05F /* InfoPlist.strings */,
-				F3BE839119970055005BE05F /* ACCESS Screen Saver-Prefix.pch */,
+				F3BE839119970055005BE05F /* Sample Mac Screen Saver-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -128,9 +129,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F3BE837F19970055005BE05F /* ACCESS Screen Saver */ = {
+		F3BE837F19970055005BE05F /* Sample Mac Screen Saver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3BE839719970055005BE05F /* Build configuration list for PBXNativeTarget "ACCESS Screen Saver" */;
+			buildConfigurationList = F3BE839719970055005BE05F /* Build configuration list for PBXNativeTarget "Sample Mac Screen Saver" */;
 			buildPhases = (
 				F3BE837A19970055005BE05F /* Sources */,
 				F3BE837B19970055005BE05F /* Frameworks */,
@@ -142,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = "ACCESS Screen Saver";
-			productName = "ACCESS Screen Saver";
-			productReference = F3BE838019970055005BE05F /* ACCESS Screen Saver.saver */;
+			name = "Sample Mac Screen Saver";
+			productName = "Sample Mac Screen Saver";
+			productReference = F3BE838019970055005BE05F /* Sample Mac Screen Saver.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +157,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Alistair McMillan";
 			};
-			buildConfigurationList = F3BE837919970055005BE05F /* Build configuration list for PBXProject "ACCESS Screen Saver" */;
+			buildConfigurationList = F3BE837919970055005BE05F /* Build configuration list for PBXProject "Sample Mac Screen Saver" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -168,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3BE837F19970055005BE05F /* ACCESS Screen Saver */,
+				F3BE837F19970055005BE05F /* Sample Mac Screen Saver */,
 			);
 		};
 /* End PBXProject section */
@@ -182,7 +183,7 @@
 				F3BE83A2199703EC005BE05F /* innovation.png in Resources */,
 				F3BE83A3199703EC005BE05F /* trust.png in Resources */,
 				F3BE83A1199703EC005BE05F /* excel.png in Resources */,
-				F3C8E02119A7F268000229E3 /* ACCESS.png in Resources */,
+				F3C8E02119A7F268000229E3 /* logo.png in Resources */,
 				F3BE839F199703EC005BE05F /* background.png in Resources */,
 				F3BE83A0199703EC005BE05F /* communication.png in Resources */,
 			);
@@ -205,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3BE839419970055005BE05F /* ACCESS_Screen_SaverView.m in Sources */,
+				F3BE839419970055005BE05F /* Sample_Mac_Screen_SaverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,10 +299,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ACCESS Screen Saver/ACCESS Screen Saver-Prefix.pch";
-				INFOPLIST_FILE = "ACCESS Screen Saver/ACCESS Screen Saver-Info.plist";
+				GCC_PREFIX_HEADER = "Sample Mac Screen Saver/Sample Mac Screen Saver-Prefix.pch";
+				INFOPLIST_FILE = "Sample Mac Screen Saver/Sample Mac Screen Saver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sample Mac Screen Saver";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -311,10 +312,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ACCESS Screen Saver/ACCESS Screen Saver-Prefix.pch";
-				INFOPLIST_FILE = "ACCESS Screen Saver/ACCESS Screen Saver-Info.plist";
+				GCC_PREFIX_HEADER = "Sample Mac Screen Saver/Sample Mac Screen Saver-Prefix.pch";
+				INFOPLIST_FILE = "Sample Mac Screen Saver/Sample Mac Screen Saver-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sample Mac Screen Saver";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -322,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3BE837919970055005BE05F /* Build configuration list for PBXProject "ACCESS Screen Saver" */ = {
+		F3BE837919970055005BE05F /* Build configuration list for PBXProject "Sample Mac Screen Saver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3BE839519970055005BE05F /* Debug */,
@@ -331,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3BE839719970055005BE05F /* Build configuration list for PBXNativeTarget "ACCESS Screen Saver" */ = {
+		F3BE839719970055005BE05F /* Build configuration list for PBXNativeTarget "Sample Mac Screen Saver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F3BE839819970055005BE05F /* Debug */,
