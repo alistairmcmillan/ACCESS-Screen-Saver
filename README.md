@@ -2,4 +2,4 @@
 
 Quick little two hour hack.
 
-Repo doesn't include the PNG files. Apologies.
+Repo includes placeholder PNG files.
